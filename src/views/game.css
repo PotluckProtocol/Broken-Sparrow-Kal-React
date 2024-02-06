@@ -54,15 +54,15 @@
   position: absolute;
 }
 .game-unstaked {
-  top: 263px;
+  top: 265px;
   left: 115px;
   width: 300px;
   height: 75px;
   position: absolute;
 }
 .game-staked {
-  top: 267px;
-  left: 1112px;
+  top: 265px;
+  left: 1113px;
   width: 300px;
   height: 75px;
   position: absolute;
@@ -93,18 +93,18 @@
     height: 722px;
   }
   .game-blue-fridge {
-    top: 271px;
+    top: 265px;
     right: 19px;
     width: 794px;
     height: 722px;
   }
   .game-unstaked {
-    top: 306px;
+    top: 300px;
     left: 69px;
   }
   .game-staked {
-    top: 306px;
-    left: 862px;
+    top: 300px;
+    left: 865px;
   }
   .game-stake {
     top: 784px;
