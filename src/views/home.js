@@ -30,7 +30,7 @@ const Home = (props) => {
             src="/external/mint24-hay-200h.webp"
             className="home-mint"
           />
-          <Link to="/play" className="home-navlink">
+          <Link to="/game" className="home-navlink">
             <img
               alt="Play25"
               src="/external/play25-zqh-200h.webp"

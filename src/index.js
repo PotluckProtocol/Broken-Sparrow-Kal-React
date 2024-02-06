@@ -9,7 +9,9 @@ import {
 
 import './style.css'
 import Play from './views/play'
+import Minter from './views/minter'
 import Home from './views/home'
+import Game from './views/game'
 import NotFound from './views/not-found'
 
 const App = () => {
@@ -17,7 +19,9 @@ const App = () => {
     <Router>
       <Switch>
         <Route component={Play} exact path="/play" />
+        <Route component={Minter} exact path="/minter" />
         <Route component={Home} exact path="/" />
+        <Route component={Game} exact path="/game" />
         <Route component={NotFound} path="**" />
         <Redirect to="**" />
       </Switch>

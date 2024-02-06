@@ -129,6 +129,10 @@
   object-position: center;
 }
 @media(max-width: 1600px) {
+  .home-title {
+    top: 28px;
+    left: 454px;
+  }
   .home-telegram {
     top: 842px;
     left: 819px;
@@ -158,23 +162,24 @@
 }
 @media(max-width: 1200px) {
   .home-title {
-    left: 425px;
+    top: 44px;
+    left: 444px;
   }
   .home-telegram {
-    left: 813px;
-    bottom: 172px;
+    top: 826px;
+    left: 819px;
   }
   .home-twitter {
-    left: 888px;
-    bottom: 172px;
+    top: 826px;
+    left: 894px;
   }
   .home-docs {
-    left: 1033px;
-    bottom: 172px;
+    top: 826px;
+    left: 1039px;
   }
   .home-dex-screener {
-    left: 958px;
-    bottom: 172px;
+    top: 826px;
+    left: 964px;
   }
   .home-chill-flag {
     top: 650px;
@@ -192,7 +197,8 @@
 }
 @media(max-width: 991px) {
   .home-title {
-    left: 450px;
+    top: 82px;
+    left: 465px;
     width: 991px;
   }
   .home-telegram {
