@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 
 import { Helmet } from 'react-helmet'
 
@@ -9,7 +8,7 @@ const Home = (props) => {
   return (
     <div className="home-container">
       <Helmet>
-        <title>exported project</title>
+        <title>KirpillVsFood</title>
       </Helmet>
       <div className="home-group1">
         <div className="home-frame2">
@@ -21,6 +20,11 @@ const Home = (props) => {
             className="home-background"
           />
           <img
+            alt="image"
+            src="/external/titlemobile-400w.webp"
+            className="home-image"
+          />
+          <img
             alt="Title23"
             src="/external/title23-yx25-300h.webp"
             className="home-title"
@@ -30,13 +34,11 @@ const Home = (props) => {
             src="/external/mint24-hay-200h.webp"
             className="home-mint"
           />
-          <Link to="/game" className="home-navlink">
-            <img
-              alt="Play25"
-              src="/external/play25-zqh-200h.webp"
-              className="home-play"
-            />
-          </Link>
+          <img
+            alt="Play25"
+            src="/external/play25-zqh-200h.webp"
+            className="home-play"
+          />
           <img
             alt="Buy27"
             src="/external/buy27-ge7p-200h.webp"
@@ -62,15 +64,22 @@ const Home = (props) => {
           >
             <img
               alt="Twitter213"
-              src="/external/twitter213-c3g-200h.webp"
+              src="/twitter213-c3g-200h.webp"
               className="home-twitter"
             />
           </a>
-          <img
-            alt="Docs214"
-            src="/external/docs214-7a6g-200w.webp"
-            className="home-docs"
-          />
+          <a
+            href="https://medium.com/@chillpillfi/chill-gamefi-adventure-part-3-33e2e5d9050a"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="home-link2"
+          >
+            <img
+              alt="Docs214"
+              src="/external/docs214-7a6g-200w.webp"
+              className="home-docs"
+            />
+          </a>
           <img
             alt="DexScreener215"
             src="/external/dexscreener215-mg4b-200h.webp"

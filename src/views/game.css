@@ -6,13 +6,20 @@
   align-items: center;
   flex-direction: column;
 }
+.game-container1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
 .game-frame1 {
   width: 100%;
   height: 1080px;
   display: flex;
   position: relative;
-  align-items: flex-start;
+  align-items: flex-end;
   flex-shrink: 0;
+  justify-content: center;
 }
 .game-background {
   top: 0px;
@@ -22,7 +29,7 @@
   position: absolute;
 }
 .game-title {
-  top: -6px;
+  top: -24px;
   left: 309px;
   width: 1229px;
   height: 265px;
@@ -58,14 +65,18 @@
   left: 115px;
   width: 300px;
   height: 75px;
+  z-index: 100;
   position: absolute;
+  border-radius: var(--dl-radius-radius-radius4);
 }
 .game-staked {
   top: 265px;
-  left: 1113px;
+  left: 1110px;
   width: 300px;
   height: 75px;
+  z-index: 100;
   position: absolute;
+  border-radius: var(--dl-radius-radius-radius4);
 }
 .game-stake {
   left: 502px;
@@ -155,5 +166,139 @@
     right: 51px;
     width: 221px;
     height: 67px;
+  }
+}
+@media(max-width: 991px) {
+  .game-background {
+    top: -12px;
+    left: -459px;
+  }
+  .game-title {
+    top: -4px;
+    right: 73px;
+    width: 765px;
+    height: 245px;
+  }
+  .game-home {
+    width: 77px;
+    height: 76px;
+  }
+  .game-red-fridge {
+    top: 277px;
+    left: -12px;
+    width: 536px;
+    height: 523px;
+  }
+  .game-blue-fridge {
+    top: 277px;
+    right: -20px;
+    width: 536px;
+    height: 523px;
+  }
+  .game-unstaked {
+    top: 287px;
+    left: 23px;
+  }
+  .game-staked {
+    top: 287px;
+    left: 517px;
+  }
+  .game-stake {
+    top: 739px;
+    left: 266px;
+  }
+  .game-claim {
+    top: 737px;
+    right: 23px;
+  }
+}
+@media(max-width: 767px) {
+  .game-background {
+    top: -2px;
+    left: -555px;
+  }
+  .game-title {
+    top: 18px;
+    left: 151px;
+    width: 509px;
+    height: 213px;
+  }
+  .game-red-fridge {
+    top: 175px;
+    left: 166px;
+    width: 427px;
+    height: 467px;
+  }
+  .game-blue-fridge {
+    top: 600px;
+    left: 166px;
+    width: 427px;
+    bottom: 21px;
+    height: 467px;
+  }
+  .game-unstaked {
+    top: 583px;
+    left: 177px;
+  }
+  .game-staked {
+    top: 583px;
+    left: 375px;
+    right: 171px;
+  }
+  .game-stake {
+    top: 1000px;
+    left: 174px;
+  }
+  .game-claim {
+    top: 1000px;
+    left: 375px;
+    right: 170px;
+    bottom: 6px;
+  }
+}
+@media(max-width: 479px) {
+  .game-title {
+    top: 4px;
+    left: 70px;
+    right: 50px;
+    width: 369px;
+    height: 193px;
+  }
+  .game-home {
+    top: 24px;
+    left: 16px;
+    width: 44px;
+    height: 44px;
+  }
+  .game-red-fridge {
+    top: 650px;
+    right: -4px;
+    width: 479px;
+    bottom: 36px;
+    height: 399px;
+  }
+  .game-blue-fridge {
+    top: 211px;
+    left: -12px;
+    width: 479px;
+    height: 399px;
+  }
+  .game-unstaked {
+    top: 645px;
+    left: 15px;
+  }
+  .game-staked {
+    top: 207px;
+    left: 11px;
+  }
+  .game-stake {
+    top: 1000px;
+    left: 220px;
+    right: 32px;
+    bottom: 12px;
+  }
+  .game-claim {
+    top: 561px;
+    right: 33px;
   }
 }
